@@ -8,6 +8,7 @@ Contains sets of colors, text, and annotations to have a solid starting point fo
 
 ### Notes and other useful things
 
+* [Colororacle](https://colororacle.org/index.html) to check visibility with vision impairments.
 * The [Paul Tol](https://personal.sron.nl/~pault/) colors are used by the [SciencePlots](https://github.com/garrettj403/SciencePlots) package.
 * Plugins: [TexText](https://github.com/textext/textext), [Scientific Inkscape](https://github.com/burghoff/Scientific-Inkscape), [inkscapeMadeEasy](https://github.com/fsmMLK/inkscapeMadeEasy), ...
 
