@@ -4,7 +4,8 @@ A simple Inkscape template for scientific figures 🎨
 
 Contains sets of colors, text, and annotations to have a solid starting point for figure creation.
 
-[Download](https://github.com/lukmuk/inkscape-scientific-figure-template/raw/main/Scientific_Figure_Template.svg) 
+<a href="https://github.com/lukmuk/inkscape-scientific-figure-template/raw/main/Scientific_Figure_Template.svg" download target="_blank">Download</a>
+
 
 ![Screenshot of the template showing different colors, text snippets, and annotations such as cicles, arrows, etc.](screenshot.png "Screenshot of the template")
 
