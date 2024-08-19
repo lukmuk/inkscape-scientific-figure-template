@@ -1,8 +1,10 @@
-# inkscape-scientific-figure-template
+# Inkscape Scientific Figure Template
 
 A simple Inkscape template for scientific figures 🎨
 
 Contains sets of colors, text, and annotations to have a solid starting point for figure creation.
+
+[Download](https://github.com/lukmuk/inkscape-scientific-figure-template/raw/main/Scientific_Figure_Template.svg) 
 
 ![Screenshot of the template showing different colors, text snippets, and annotations such as cicles, arrows, etc.](screenshot.png "Screenshot of the template")
 
@@ -12,13 +14,13 @@ Contains sets of colors, text, and annotations to have a solid starting point fo
 * The [Paul Tol](https://personal.sron.nl/~pault/) colors are used by the [SciencePlots](https://github.com/garrettj403/SciencePlots) package.
 * Plugins: [TexText](https://github.com/textext/textext), [Scientific Inkscape](https://github.com/burghoff/Scientific-Inkscape), [inkscapeMadeEasy](https://github.com/fsmMLK/inkscapeMadeEasy), [ProPlot](https://proplot.readthedocs.io/en/latest/), ...
 
-###### Fiji: Images to svg vector graphics
+##### Fiji: Images to svg vector graphics
 
 - Export via [Biovoxxel Figure Tools](https://github.com/biovoxxel/BioVoxxel-Figure-Tools#exporting-svg-vector-graphics-directly-from-fiji)
 - Open the svg image in Inkscape
 - Fiji annotations (e.g., scale bars from [em-scalebartools](https://github.com/lukmuk/em-scalebartools)) must be unlocked (Object -> Unlock All) and then ungrouped (Shift+Ctrl+G) for editing
 
-###### Inkscape batch export to different formats
+##### Inkscape batch export to different formats
 
 Figures may be needed in different file formats:
 
@@ -49,7 +51,7 @@ Export on Windows to EPS:
 for %f in (*.svg) do "C:\Program Files\Inkscape\bin\inkscape.com" --export-filename=%~nf.eps %~nf.svg
 ```
 
-###### File compression
+##### File compression
 
 - [OptiPNG](https://optipng.sourceforge.net/) - Lossless PNG file compression. Especially useful if you want to maximize quality of a PNG in an upload mask with a file-size limit (e.g., 500 kB for an abstract submission).  
   Batch conversion of all PNGs in a folder on Windows (copy the `optipng.exe` to the same folder):
